@@ -1,0 +1,96 @@
+/*
+Black #010102
+Blue #0E244C
+Lightblue #6A8FB5
+White #FFFFFF
+Orange #FF8411
+*/
+html {
+  height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+
+  /* body {
+        margin: 100pt 10pt 0.01em 10pt;
+    } */
+  h1 {
+    margin: 0 10 0 10;
+  }
+
+  p.body {
+    margin: 0 10 0 10;
+  }
+
+  p.center {
+    margin: 0 10 0 10;
+  }
+  body{
+      margin-top: 200pt;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  font-family: "PT sans", sans-serif;
+  font-size: 100%;
+  margin-top: 200pt;
+  background-image: url("../images/CdeWebsite2.png");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+}
+
+div {
+  width: 100%;
+  height: auto;
+  padding: 35px 0px;
+}
+
+.light {
+  color: #fff;
+  /* background-color: #6A8FB5; */
+  /* background-image: url("../images/SceneCentralFigures.png"); */
+  /* background-position: center; /* Center the image */
+  /* background-repeat: no-repeat;  /* Do not repeat the image */
+  */
+  /* background-size: cover; */
+  */ text-align: center;
+}
+
+.dark {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* text-align: center; */
+  /* align-items: center; */
+  bottom: 0;
+  position: fixed;
+}
+
+p.body {
+  font-size: 1.1em;
+  vertical-align: top;
+  text-align: justify;
+  margin: 0 15% 0 15%;
+}
+
+p.center {
+  font-size: 1.1em;
+  vertical-align: top;
+  text-align: center;
+  /* margin: 1em 15em 1em 15em; */
+}
+
+h1 {
+  font-family: "PT sans", sans-serif;
+  font-size: 1.5em;
+  vertical-align: top;
+  text-align: left;
+  margin: 0 15% 0 15%;
+  /* font-variant: small-caps; */
+}
